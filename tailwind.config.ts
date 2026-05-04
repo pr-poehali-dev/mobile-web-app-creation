@@ -20,8 +20,8 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				display: ['Montserrat', 'sans-serif'],
-				body: ['Golos Text', 'sans-serif'],
+				display: ['Russo One', 'sans-serif'],
+				body: ['Nunito', 'sans-serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',
@@ -67,11 +67,15 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				'ocean-deep': '#071a2e',
-				'ocean-mid': '#0d2a47',
-				'ocean-teal': '#2dd4bf',
-				'ocean-nav': 'rgba(7,26,46,0.92)',
-				'ocean-card': '#0d2a47',
+				'ocean-deep': '#e8f4fd',
+				'ocean-mid': '#ffffff',
+				'ocean-teal': '#f5c842',
+				'ocean-nav': 'rgba(255,255,255,0.96)',
+				'ocean-card': '#ffffff',
+				'brand-blue': '#2d5fa6',
+				'brand-yellow': '#f5c842',
+				'brand-sky': '#a8d8f0',
+				'brand-light': '#e8f4fd',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
